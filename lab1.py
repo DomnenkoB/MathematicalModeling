@@ -63,7 +63,7 @@ plt.xlim(0, 5)
 plt.plot(t, [abs(c) for c in C])
 plt.show()
 
-m_star = max([abs(c) for c in C[20:481]]) #function is not 
+m_star = max([abs(c) for c in C[20:481]]) #function has 'leaps' on the ends of the interval
 delta_f = 1 / T
 
 print(m_star)
